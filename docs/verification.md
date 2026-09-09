@@ -6,13 +6,13 @@ Review performed September 5–9, 2026. Results concern the private implementati
 
 | Check | Result | Scope and limitation |
 | --- | --- | --- |
-| Full local check: `npm run check` | Passed | Lint, seven unit tests, frontend build, Functions build, and high-severity production dependency audit gates. |
+| Full local check: `npm run check` | Passed | Lint, 11 unit tests, frontend build, Functions build, and high-severity production dependency audit gates. |
 | Firebase emulator suite | Passed: 6 tests | Firestore/Storage authorization plus server submission integration, using an isolated `demo-` project. |
 | Current application lint | Passed: 0 errors, 0 warnings | Generated output and a stale nested worktree are excluded from the active-source lint scope. |
 | Frontend production build | Passed | Route and vendor splitting reduced the entry application chunk to about 59 kB minified; the largest remaining chunk is about 390 kB minified. These are artifact sizes, not loading-time measurements. |
 | Functions production build | Passed | TypeScript compilation on the hardened callable implementation. |
 | Production dependency audit | Passed at high-severity gate | Root production audit: zero findings. Functions: seven moderate transitive findings; no high or critical findings. |
-| GitHub Actions | Passed in the private source repository | Node.js 22 and Java 21 repeated clean installs, lint, tests, emulators, both builds, and audit gates in 1m 18s. The private run is not linked from this public case study. |
+| GitHub Actions | Passed in the private source repository | Node.js 22 and Java 21 repeated clean installs, lint, tests, emulators, both builds, and audit gates in 1m 24s. The private run is not linked from this public case study. |
 
 ## Hosted observations
 
@@ -38,7 +38,7 @@ Security changes restrict profile and image access, deny direct client submissio
 
 Local browser checks at a 390 × 844 viewport verified the public homepage layout, mobile menu expansion and collapse, catalogue navigation, the labeled activity return control, Space-key answer selection, and progression to the second question. The activity was then exited without completion or persistence. Local browsing read published client content; it was not an isolated demo backend. Error and empty-state branches were reviewed in source and compiled, but were not fault-injected against the live backend.
 
-The original review build produced a single 1,529.26 kB JavaScript bundle (430.85 kB gzip). The hardened build splits routes and vendors: the application entry is about 59.19 kB (16.71 kB gzip), while the largest Firestore chunk is about 390.36 kB (111.70 kB gzip). CSS is about 114.43 kB (17.51 kB gzip). These are build artifact sizes, not measured loading times. Lint and `git diff --check` pass.
+The original review build produced a single 1,529.26 kB JavaScript bundle (430.85 kB gzip). The hardened build splits routes and vendors: the application entry is about 59.22 kB (16.74 kB gzip), while the largest Firestore chunk is about 390.36 kB (111.70 kB gzip). CSS is about 114.43 kB (17.51 kB gzip). These are build artifact sizes, not measured loading times. Lint and `git diff --check` pass.
 
 A static check matched all 58 literal internal Link destinations to declared routes; dynamic destinations still require workflow testing. The local 404 recovery page rendered, and the document reported Romanian language and the new favicon reference.
 

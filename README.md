@@ -43,7 +43,7 @@ The [engineering notes](docs/engineering.md) explain three concrete tradeoffs: s
 
 ## Quality, outcomes, and status
 
-The hardened private revision passes lint, both production builds, **13 automated tests**, Firebase emulator authorization tests, and high-severity production dependency audit gates. GitHub Actions repeated these checks successfully on Node.js 22 and Java 21. See [exact scope and results](docs/verification.md).
+The hardened private revision passes lint, both production builds, **17 automated tests**, Firebase emulator authorization tests, and high-severity production dependency audit gates. GitHub Actions repeated these checks successfully on Node.js 22 and Java 21. See [exact scope and results](docs/verification.md).
 
 The verified outcome is a hosted public catalogue and guest introduction/question flow backed by an implementation of student and administrative workflows. No conversion gains, adoption totals, measured performance improvements, psychometric validity, or compliance guarantees are claimed.
 
