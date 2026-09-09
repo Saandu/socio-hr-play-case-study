@@ -4,28 +4,29 @@ This repository is prepared locally for the author's approval. It has not been p
 
 ## Established
 
-- The user explicitly states permission to use this project in their CV.
-- The CV names Alexandru Lungu as a contract Full-Stack Developer for 2025–2026.
-- Technical systems described here were inspected in the application implementation. Their presence does not establish individual authorship.
+- The client has authorized Alexandru Lungu to use the project in his CV and publish a public case study with the live application link.
+- Permission communicated by the user also covers application screenshots, the institution name, and logos, provided no participant data, responses, contact information, credentials, or administrative secrets are exposed.
+- Alexandru Lungu worked on the engagement from October 2025 through March 2026 as the sole software developer.
+- Three other team members supplied ideas and created the quizzes using the activity constructor Alexandru built. They are credited as subject-matter/content collaborators; the case study does not attribute their questions, answers, assessment methodology, or institutional materials to Alexandru.
+- The implementation verifies Alexandru's described development scope: React/TypeScript interface, reusable activity constructor and logic, Firebase integration, authenticated workflows, administration tools, image processing, and deployment support.
 - The live application and public GitHub profile were verified.
 - All bundled illustrations were created specifically for this case study. No client screenshot, source file, logo, assessment content, participant record, or CV document is bundled.
 
-## Exact information still required before publication
+## Final review still required before publication
 
-1. Confirm exact engagement months, or explicitly accept the CV's year-only range.
-2. Confirm personal responsibilities and collaborators' contributions. Repository author aliases are not evidence of sole authorship. Identify responsibility for design, content, assessment methodology, backend work, and deployment.
-3. Confirm that CV permission also permits this separate public case study, its project name, and the application link. The prose anonymizes the client, but the linked app and its domain identify the institution; this is not complete anonymity.
-4. Approve the actual text and illustrations in this repository. No public creation or push should precede that approval.
+1. Approve the exact final text and bundled illustrations in this repository. Client publication permission does not replace the author's final review of the artifact.
+2. Decide whether the synthetic illustrations should remain or be replaced by approved screenshots. Every proposed screenshot must still be checked for participant records, responses, contact details, administrator identities, secrets, and sensitive aggregate data.
+3. Verify any additional professional profile link before adding it. GitHub is currently the only verified public profile.
 
 ## Client materials requiring separate permission if added
 
 | Material | Current treatment |
 | --- | --- |
-| Client/institution name and endorsement language | Name omitted from narrative; no endorsement claimed. The application link identifies the institution. |
-| Logos, visual identity, client artwork | Excluded. |
-| Screenshots of the real application, even when no personal data is visible | Excluded; original synthetic illustrations supplied instead. |
+| Client/institution name and application link | Publication permission confirmed; institution named factually, without an endorsement claim. |
+| Logos and visual identity | Permission confirmed, but excluded from the current draft because they are not needed to explain the engineering work. |
+| Screenshots of the real application | Permission confirmed. Current draft retains synthetic illustrations; any replacement screenshot still requires a privacy/content check. |
 | Quiz questions, answer keys, outcome descriptions, assessment methodology | Excluded. |
-| Event photographs, event-use claims, testimonials, adoption or impact figures | Excluded pending evidence and permission. |
+| Event photographs, testimonials, adoption or impact figures | Excluded because no supporting evidence was reviewed; permission alone would not verify the claims. |
 | Participant records, assessment responses, contact information, administrator secrets | Excluded; do not add them to the public repository. |
 | Application source and infrastructure configuration | Excluded; source remains private. |
 

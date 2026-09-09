@@ -1,6 +1,6 @@
 # Engineering notes
 
-These notes summarize implementation inspected during September 5–6, 2026. They do not expose application source or operational identifiers. Historical reasons are stated only where supported by implementation comments or the CV; other observations explain how the technologies function in this application.
+These notes summarize implementation inspected during September 5–9, 2026. They do not expose application source or operational identifiers. Historical reasons are stated only where supported by implementation comments, the CV, or the developer's confirmed contribution record; other observations explain how the technologies function in this application.
 
 ## Architecture and state
 

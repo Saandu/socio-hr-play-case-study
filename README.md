@@ -1,20 +1,20 @@
 # Socio HR Play
 
-**Interactive assessments and outreach activities for a university audience.** A client application combining a public activity catalogue with student accounts and tools for staff to manage content and review participation.
+**Interactive assessments and outreach activities for a university audience.** A web application built for the Faculty of Sociology and Social Work at the West University of Timișoara, combining a public activity catalogue with student accounts and tools for staff to manage content and review participation.
 
 [Explore the live application](https://uvt-socio-quiz.web.app/) · [Recruiter walkthrough](docs/walkthrough.md) · [Engineering notes](docs/engineering.md) · [Verification](docs/verification.md)
 
-> Local review draft. Publication awaits approval of these contents and confirmation of the attribution items below. The application interface is primarily Romanian.
+> Local review draft. The client has authorized a public case study, live link, application screenshots, institution name, and logos. This exact repository remains local until its final content review. The application interface is primarily Romanian.
 
 ## My contribution
 
-**Alexandru Lungu — Full-Stack Developer, contract, 2025–2026** (role and year range from my CV).
+**Alexandru Lungu — Full-Stack Developer, contract, October 2025–March 2026.**
 
-The engagement described in my CV covers the React/TypeScript interface, activity logic, Firebase integration, and a fallback for loading editable homepage content. Those systems are present in the reviewed implementation. Exact engagement months and the division of work with collaborators still need confirmation; this case study does not claim sole authorship. Client content, branding, and assessment methodology are not attributed to me.
+I was the sole software developer. I designed and implemented the React/TypeScript interface, reusable activity constructor and activity logic, Firebase integration, authenticated student and staff workflows, administration tools, image processing, and deployment support. Three other team members supplied product and activity ideas and authored the quizzes through the constructor I built. They owned the subject-matter content; I do not claim authorship of their questions, answers, assessment methodology, or institutional branding.
 
 ## Problem and users
 
-The application supports a university department's need to offer interactive sociology and HR-related activities to prospective students and other visitors, while giving staff a way to maintain activities and review participation. The CV describes use at outreach events; attendance, adoption, and impact were not independently verified.
+The application supports the Faculty of Sociology and Social Work at the West University of Timișoara in offering interactive sociology and HR-related activities to prospective students and other visitors, while giving its team a way to create and maintain activities and review participation. The CV describes use at outreach events; attendance, adoption, and impact were not independently verified.
 
 | Audience | Implemented journey |
 | --- | --- |
