@@ -4,7 +4,7 @@
 
 [Explore the live application](https://uvt-socio-quiz.web.app/) · [Recruiter walkthrough](docs/walkthrough.md) · [Engineering notes](docs/engineering.md) · [Verification](docs/verification.md)
 
-> Local review draft. The client has authorized a public case study, live link, application screenshots, institution name, and logos. This exact repository remains local until its final content review. The application interface is primarily Romanian.
+> Client-authorized public case study. The application interface is primarily Romanian.
 
 ## My contribution
 
@@ -47,7 +47,7 @@ The hardened private revision passes lint, both production builds, **17 automate
 
 The verified outcome is a hosted public catalogue and guest introduction/question flow backed by an implementation of student and administrative workflows. No conversion gains, adoption totals, measured performance improvements, psychometric validity, or compliance guarantees are claimed.
 
-The local revision tightens profile and image authorization, moves submission validation and scoring to a rate-limited idempotent server transaction, fixes key loading/error/accessibility states, and splits route bundles. These changes are not deployed. A coordinated Firebase release, synthetic post-release checks, operator approval of retention terms, and protected-role browser QA remain outstanding. App Check is deliberately deferred, so the public callable relies on server validation and rate limits against automated traffic. Published activity documents still expose their answer mappings, so the product should be treated as a low-stakes educational tool rather than a secure examination system.
+The deployed revision tightens profile and image authorization, moves submission validation and scoring to a rate-limited idempotent server transaction, fixes key loading/error/accessibility states, and splits route bundles. Protected-role browser QA, operator approval of retention terms, and full assistive-technology testing remain outstanding. App Check is deliberately deferred, so the public callable relies on server validation and rate limits against automated traffic. Published activity documents still expose their answer mappings, so the product should be treated as a low-stakes educational tool rather than a secure examination system.
 
 ## Source and rights
 

@@ -1,6 +1,6 @@
 # Rights, attribution, and publication review
 
-This repository is prepared locally for the author's approval. It has not been published. The client application's source repository must remain private.
+Publication was approved by the author on September 9, 2026. The client application's source repository remains private.
 
 ## Established
 
@@ -12,11 +12,11 @@ This repository is prepared locally for the author's approval. It has not been p
 - The live application and public GitHub profile were verified.
 - All bundled illustrations were created specifically for this case study. No client screenshot, source file, logo, assessment content, participant record, or CV document is bundled.
 
-## Final review still required before publication
+## Publication decisions
 
-1. Approve the exact final text and bundled illustrations in this repository. Client publication permission does not replace the author's final review of the artifact.
-2. Decide whether the synthetic illustrations should remain or be replaced by approved screenshots. Every proposed screenshot must still be checked for participant records, responses, contact details, administrator identities, secrets, and sensitive aggregate data.
-3. Verify any additional professional profile link before adding it. GitHub is currently the only verified public profile.
+1. The author approved the final repository for public GitHub publication.
+2. Synthetic illustrations remain. Any future replacement screenshot must be checked for participant records, responses, contact details, administrator identities, secrets, and sensitive aggregate data.
+3. GitHub remains the only verified public professional profile.
 
 ## Client materials requiring separate permission if added
 
