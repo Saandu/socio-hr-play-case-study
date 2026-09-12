@@ -1,6 +1,6 @@
 # Verification record
 
-Review and Firebase release performed September 5–10, 2026. The deployed source revision is private commit `9bfec60`.
+Review and Firebase release performed September 5–10, 2026. Functions and Hosting were most recently deployed from private commit `2e62754`; the current private repository head, `cd9d431`, adds documentation only.
 
 ## Available checks
 
@@ -30,7 +30,7 @@ Review and Firebase release performed September 5–10, 2026. The deployed sourc
 | Repository homepage metadata | Updated to the verified Firebase Hosting link; source visibility remains private. |
 | GitHub professional profile | Public page returned HTTP 200 and the account was verified through GitHub CLI. |
 
-Functions, Hosting, Firestore rules and Storage rules were deployed from private commit `9bfec60`. No live submissions, email sends, account creation, administrative exports, or client-data changes were performed during verification.
+Functions and Hosting were refreshed from private commit `2e62754`. Firestore and Storage rules were last deployed from private commit `9bfec60` and were unchanged by the maintenance refresh. No live submissions, email sends, account creation, administrative exports, or client-data changes were performed during verification.
 
 ## Deployed presentation fixes
 
