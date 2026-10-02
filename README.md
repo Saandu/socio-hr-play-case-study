@@ -8,7 +8,7 @@
 
 ## My contribution
 
-**Alexandru Lungu - Full-Stack Engineer, contract, October 2025–March 2026.**
+**Alexandru Lungu - Full Stack Engineer, contract, October 2025–March 2026.**
 
 I was the sole software developer. I designed and implemented the React/TypeScript interface, reusable activity constructor and activity logic, Firebase integration, authenticated student and staff workflows, administration tools, image processing, and deployment support. Three other team members supplied product and activity ideas and authored the quizzes through the constructor I built. They owned the subject-matter content; I do not claim authorship of their questions, answers, assessment methodology, or institutional branding.
 
